@@ -1,0 +1,22 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: red;
+}
+.flex > nav{
+  background-color: grey;
+  display: inline-flex;
+}
+a{
+  padding: 50px;
+  text-align: center;
+  display: inline-block;
+}
